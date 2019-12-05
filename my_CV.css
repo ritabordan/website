@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap&subset=cyrillic');
+    margin-left: 200;
+}
+
+h1 {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,600|Montserrat+Alternates:300,700&display=swap&subset=cyrillic" rel="stylesheet');
+}
+
+h3 {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,600|Montserrat+Alternates:300,700&display=swap&subset=cyrillic" rel="stylesheet');
+}
+
+h4 {
+    background-color: whitesmoke;
+
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,600|Montserrat+Alternates:300,700&display=swap&subset=cyrillic" rel="stylesheet');
+}
+
+nav {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav a:link {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    color: #7418FF;
+}
+
+nav a:hover {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: underline;
+    color: #A736CE;
+}
+
+.me {
+    width: 500px;
+    height: 250px;
+    background-color: whitesmoke;
+    margin: 5px 150px 5px 330px;
+}
+
+.skills {
+
+    width: 500;
+    height: 250px;
+    background-color: whitesmoke;
+    margin: 1px 250px 1px 250px;
+}
+
+.experience {
+
+    width: 450;
+    height: 250px;
+    background-color: whitesmoke;
+    margin: 1px 270px 1px 270px;
+}
+
+
+ul li {
+    list-style-type: none;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+}
+
+address a:link {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    color: #7418FF;
+
+}
+
+address a:hover {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: underline;
+    color: #A736CE;
+}

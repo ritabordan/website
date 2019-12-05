@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Резюме
+    </title>
+    <link rel="stylesheet" href="css/my_CV.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap&subset=cyrillic');
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Моё резюме</h1>
+    </header>
+
+    <h3>
+        Меня зовут Рита Бордан и&nbsp;я&nbsp;будущий веб-дизайнер! </h3>
+    <img src="CV.jpg" width="226" alt="my photo"> <br> <br>
+
+    <nav>
+        <a href="#p2">Мои навыки</a> <br>
+        <a href="#p1">Мой опыт</a> <br>
+        <a href="#p3">Примеры работ</a> <br>
+    </nav>
+
+    <h4>Обо мне</h4>
+    <div class="me">
+        <p>В&nbsp;данный момент я&nbsp;учусь в&nbsp;<a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0" target="_blank">РУТ(МИИТ)</a> на&nbsp;факультете информационных систем и&nbsp;технологий.
+            Большую часть времени мы&nbsp;учимся писать бэкенды, но&nbsp;я&nbsp;поняла, что не&nbsp;смогу до&nbsp;конца реализовать себя в&nbsp;этом направлении.</p>
+    </div>
+    <p id="p2">
+        <h3> Мои навыки</h3>
+        <div class="skills">
+            <p>Я&nbsp;говорю на&nbsp;русском, английском, испанском, с++&nbsp;и&nbsp;java. <br>
+                В&nbsp;процессе освоения:<ul>
+                    <li> HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+        </div>
+
+        <p id="p1">
+            <h3>Мой опыт</h3>
+            <div class="experience">
+                <p>У&nbsp;меня есть опыт работы личным помощником, поэтому <em>я&nbsp;умею планировать </em>не&nbsp;только своё <em>время</em>. <br>
+                    У&nbsp;меня есть опыт работы в&nbsp;личных продажах, поэтому я&nbsp;вежлива и&nbsp;<strong>могу найти решения, которые вам помогут</strong>.</p>
+            </div>
+            <p id="p3">
+                <div>
+                    <h3>Примеры работ</h3>
+
+                    <table>
+                        <tr>
+                            <td colspan="5">
+                                <iframe src="06.jpg" frameborder="0" name="foto" width="500" height="500"> </iframe>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <a href="01.jpg" target="foto"> <img src="01.jpg" alt="01" width="100"></a></td>
+                            <td> <a href="02.jpg" target="foto"> <img src="02.jpg" alt="02" width="100"></a></td>
+                            <td><a href="03.jpg" target="foto"> <img src="03.jpg" alt="03" width="100"></a></td>
+                            <td><a href="04.jpg" target="foto"> <img src="04.jpg" alt="04" width="100"></a></td>
+                            <td><a href="05.jpg" target="foto"> <img src="05.jpg" alt="05" width="100"></a></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+
+                <h2>
+                    Детали заказа
+                </h2>
+                <form action="">
+                    <fieldset>
+                        <legend>Контактная информация</legend>
+                        <table>
+                            <tr>
+                                <td> <label for="">Имя*</label></td>
+                                <td> <input type="text" id="name" name="firstname" value="" placeholder="Введите Имя " autofocus required pattern="а-я{5}"> </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="phone ">Телефон*</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="phone" name="phone" placeholder="+7(___)___ __ __" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="email">E-mail*</label>
+                                </td>
+                                <td>
+                                    <input type="email" id="email">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Детали заказа</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="data">Сроки работы</label>
+                                </td>
+                                <td>
+                                    <input type="date" id="data">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="zakaz">Что нужно сделать?</label>
+                                </td>
+                                <td>
+                                    <select name="zakaz" id="zakaz">
+                                        <option value="---" selected>выберите</option>
+                                        <option value="lending">лендинг</option>
+                                        <option value="website">многостраничный сайт</option>
+                                        <option value="product">упаковка продукта</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="budget">Приблизетльный бюджет</label>
+                                </td>
+                                <td>
+                                    <textarea name="budget" id="budget" cols="20" rows="2"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="comments">Пожелания к заказу</label>
+                                </td>
+                                <td>
+                                    <textarea name="comments" id="comments" cols="40" rows="5"></textarea>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Откуда узнали обо мне?</legend>
+                        <label for="mark">По совету</label> <br>
+                        <input type="radio" value="1" name="mark" id="mark" checked> друзей/знакомых <br>
+                        <input type="radio" value="2" name="mark" id="mark"> увидел рекламу <br>
+                        <input type="radio" value="3" name="mark" id="mark"> другое <br>
+                    </fieldset>
+                    <p> <input type="checkbox" value="yes" checked> Согласен на обработку персональных данных.</p>
+                    <p><input type="submit" value="Отправить сейчас"></p>
+                </form>
+                <address>
+                    <a href="tel:+79268787910"> <img src="css/smartphone.svg" alt="logo" width="20">Позвонить мне</a> <br>
+                    <a href="mailto:ritabordan22@gmail.com"> <img src="css/envelope.svg" alt="logo" width="18"> Написать мне</a>
+                </address>
+                <footer>
+                    <p>&copy;&nbsp;Rita Bordan</p>
+                </footer>
+</body></html>
